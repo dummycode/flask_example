@@ -27,14 +27,6 @@ def post():
         "request": "POST",
     })
 
-@app.route('/post', methods=["POST"])
-def post():
-    return jsonify({
-        "app_name": "HH Test App",
-        "version": "0.1.0",
-        "request": "POST",
-    })
-
 @app.route('/put', methods=["PUT"])
 def put():
     return jsonify({
