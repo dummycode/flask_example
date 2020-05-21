@@ -2,9 +2,6 @@ import os
 from flask import Flask, jsonify, request, redirect, url_for
 from flask_cors import CORS
 
-from stats import getStats, isAveragingTripleDouble
-from updateStats import updateStats
-
 app = Flask(__name__)
 CORS(app)
 
